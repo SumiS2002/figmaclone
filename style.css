@@ -1,0 +1,69 @@
+/* .navbar{
+    width: 100%;
+    height: 35px;
+    flex-shrink: 0;
+    background-color: #2B2B2B;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Mukta&family=Roboto&family=Rowdies&family=Work+Sans:ital,wght@1,600&display=swap');
+
+*{
+    color: white;
+    font-family: Work Sans;
+
+
+}
+
+
+.vy{
+    background-color: #A259FF;
+}
+ @media(max-width:725px){
+    .img-logo{
+        width: 50%;
+    }
+ }
+
+ .hero-but{
+    background-color: #A259FF;
+    height: 50px;
+    border-radius: 20px;
+    width: 35%;
+    border: transparent;
+ }
+
+ .head-head{
+    font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+
+ }
+
+ /* .para-para{
+    font-family: Work Sans;
+    font-size: 6px;
+    font-style: normal;
+ } */
+
+ .hero-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+ }
+
+
+ .ani{
+    transition: 1;
+}
+
+.ani:hover{
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.top-c{
+    display: flex;
+    justify-content: space-between;
+}
